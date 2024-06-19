@@ -1,0 +1,23 @@
+body {
+  background-color: #f2f9f1;
+  font: "Roboto", sans-serif;
+}
+
+.search-input {
+  background-color: #f2f9f1;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+
+.search-button {
+  background-color: #b6cdbd;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  margin-left: 5px;
+}
