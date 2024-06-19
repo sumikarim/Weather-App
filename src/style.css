@@ -67,7 +67,7 @@ header {
 
 .weather-icon {
   font-size: 44px;
-  margin-top: 18px;
+  margin-top: 22px;
 }
 
 .weather-temp {
@@ -76,8 +76,8 @@ header {
   font-weight: bold;
 }
 
-.weatehr-unit {
-  margin-top: 18px;
+.weather-unit {
+  margin-top: 22px;
   font-size: 30px;
 }
 
