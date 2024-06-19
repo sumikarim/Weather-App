@@ -1,6 +1,10 @@
 body {
   background-color: #f2f9f1;
-  font: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.a {
+  color: #b6cdbd;
 }
 
 .weather-app {
@@ -48,7 +52,7 @@ header {
 
 .weather-details {
   font-size: 16px;
-  color: #c1c1c3;
+  color: #b2b2b4;
   line-height: 24px;
   font-weight: 500;
 }
@@ -63,7 +67,7 @@ header {
 
 .weather-icon {
   font-size: 44px;
-  margin-top: 22px;
+  margin-top: 18px;
 }
 
 .weather-temp {
@@ -73,8 +77,8 @@ header {
 }
 
 .weatehr-unit {
-  margin-top: 16px;
-  font-size: 28px;
+  margin-top: 18px;
+  font-size: 30px;
 }
 
 footer {
