@@ -24,8 +24,8 @@ header {
   background-color: #f2f9f1;
   border: none;
   border-radius: 5px;
-  width: 70%;
-  font-size: 20px;
+  width: 75%;
+  font-size: 15px;
   padding: 15px 20px;
 }
 
@@ -34,8 +34,8 @@ header {
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 20px;
-  padding: 15px 30px;
+  font-size: 15px;
+  padding: 15px 40px;
   margin-left: 5px;
 }
 
@@ -47,7 +47,7 @@ header {
 .weather-city {
   margin: 0;
   font-size: 38px;
-  line-height: 48px;
+  line-height: 65px;
 }
 
 .weather-details {
@@ -66,8 +66,8 @@ header {
 }
 
 .weather-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  font-size: 50px;
+  margin-top: 20px;
 }
 
 .weather-temp {
@@ -76,7 +76,7 @@ header {
 }
 
 .weather-unit {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 30px;
 }
 
