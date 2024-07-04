@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>Weather App</title>
   </head>
   <body>
@@ -29,7 +30,7 @@
       <main>
         <div class="weather-data">
           <div>
-            <h1 class="weather-city" id="weather-city">Paris</h1>
+            <h1 class="weather-city" id="city">Paris</h1>
             <p class="weather-details">
               Tuesday 14:49, scattered clouds
               <br />
@@ -37,9 +38,9 @@
             </p>
           </div>
           <div class="weather-temp-container">
-            <div class="weather-icon">🌤️</div>
-            <div class="weather-temp">12</div>
-            <div class="weather-unit">°C</div>
+            <div class="weather-icon" id="weather-icon">🌤️</div>
+            <div class="weather-temp" id="weather-temp">12</div>
+            <div class="weather-unit" id="weather-unit">°C</div>
           </div>
         </div>
       </main>
