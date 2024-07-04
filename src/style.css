@@ -67,15 +67,15 @@ header {
 
 .weather-icon {
   font-size: 50px;
-  line-height: 80px;
+  line-height: 60px;
 }
 
 .weather-temp {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .weather-unit {
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 30px;
 }
 
