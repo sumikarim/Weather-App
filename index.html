@@ -30,16 +30,18 @@
       <main>
         <div class="weather-data">
           <div>
-            <h1 class="weather-city" id="city">Paris</h1>
+            <h1 class="weather-city" id="city"></h1>
             <p class="weather-details">
-              Tuesday 14:49, scattered clouds
+              <span id="current-date"></span>,
+              <span id="description"></span>
               <br />
-              Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind"></strong>
             </p>
           </div>
           <div class="weather-temp-container">
-            <div class="weather-icon" id="weather-icon">🌤️</div>
-            <div class="weather-temp" id="weather-temp">12</div>
+            <div class="weather-icon" id="weather-icon"></div>
+            <div class="weather-temp" id="weather-temp"></div>
             <div class="weather-unit" id="weather-unit">°C</div>
           </div>
         </div>
