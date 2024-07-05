@@ -87,14 +87,16 @@ function displayForecast(response) {
         `
     <div class="weather-forecast-day">
             <div class="weather-forecast-date">${formatDay(day.time)}</div>
-            <img src="${day.condition.icon_url}" class="weather-icon" />
+            <img src="${
+              day.condition.icon_url
+            }" class="weather-forecast-icon" />
             <div class="weather-forecast-temps">
               <div class="weather-forecast-temp"><strong>${Math.round(
                 day.temperature.maximum
-              )}</strong></div>
+              )}º</strong></div>
               <div class="weather-forecast-temp">${Math.round(
                 day.temperature.minimum
-              )}</div>
+              )}º</div>
             </div>
             </div>`;
     }
