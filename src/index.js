@@ -21,30 +21,12 @@ function refreshWeather(response) {
   getForecast(response.data.city);
 }
 
-//update date and time
-function formatDate(date) {
-  let minutes = date.getMinutes();
-  let hours = date.getHours();
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
-  let day = days[date.getDay()];
+function formatDate(timestamp) {
+  let date = new Date(timestamp * 1000);
+  let day = date.getDay();
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
-
-  if (hours < 10) {
-    hours = `0${hours}`;
-  }
-
-  return `${day} ${hours}:${minutes}`;
+  return days[day];
 }
 
 let currentDateELement = document.querySelector("#current-date");
